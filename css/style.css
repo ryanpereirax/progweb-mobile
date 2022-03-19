@@ -1,0 +1,76 @@
+body {
+  background: rgb(24, 24, 24);
+  background-size: cover;
+  background-position: center;
+  color: rgb(232, 223, 223);
+}
+
+.img {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 44%;
+}
+
+.meunome {
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.iconinstagram {
+  height: 60px;
+  width: auto;
+}
+
+.divcontatos {
+  float: left;
+}
+
+.icongithub {
+  height: 60px;
+  width: auto;
+}
+
+.meudiario {
+  text-align: center;
+  font-size: 500;
+}
+
+.meuvideo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 500px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin: 0 auto;
+  width: 500px;
+  margin-left: 42%;
+}
+
+.meuaudio {
+  text-align: center;
+}
+
+.minhacitacao {
+  font: size 400px;
+  margin-right: 5%;
+  margin-left: 47.8%;
+}
+
+.contatos {
+  margin-left: 47.8%;
+  margin-right: 48%;
+}
+
+.minhafrase {
+  margin-left: 43.6%;
+  margin-right: 41%;
+}
+
+.meuinstagram {
+  text-align: center;
+  margin-left: 47%;
+}
