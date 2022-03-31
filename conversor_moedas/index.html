@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    
+    <div class="tittleconv" >
+        <h1 > Conversor de Moedas =) </h1>
+    </div>
+        <div>
+        <h2 class="subtittleconv1"> Digite a Taxa de conversão:  </h2>
+        <input type="number" id="convertion_tax" />
+        <button class="button" id="button_1" onclick="confirmacao_cliente()" >Confirmar a Taxa</button>
+        <button class="button" id="button_0" onclick="clear_tax()" > Limpar Taxa</button>
+    </div>
+
+    <div>
+        <h2 > Converter reais em Dólar  </h2>
+        <input type="number" id="convertion_realtodol" placeholder="R$ 0.00"/>
+        <button class="button" id="button_2" onclick="cv_realtodol()">Converter</button>
+    </div>
+
+    <div>
+        <h2 > Converter Dólar em Reais </h2>
+        <input type="number" id="convertion_doltoreal" placeholder="$ 0.00"/>
+        <button class="button" id="button_3" onclick="cv_doltoreal()" >Converter</button>
+    </div>
+
+    <div>
+        <br>
+        <img src="img/triometralha.png" alt="Trio Metralha Patinhas">
+    </div> 
+    
+</body>
+
+</html>
