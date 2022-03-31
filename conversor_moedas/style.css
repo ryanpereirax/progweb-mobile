@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    background: rgb(37, 40, 41);
+    background-size: cover;
+    background-position: center;
+    color: rgb(225, 222, 222);
+
+
+  }
+
+  .tittleconv {
+      color: aliceblue;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 2em;
+      justify-content: center;
+      border-right: 2px solid rgba(255, 255, 255, .75);
+  }
+
+
+    
+
